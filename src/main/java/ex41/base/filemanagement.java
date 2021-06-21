@@ -10,15 +10,10 @@ public class filemanagement {
 
     public static void main(String[] args) {
 
-
         int countword = 0;
-
 
         int counter = countnames(countword);
         readandoutputfile(counter);
-
-
-
 
     }
 
@@ -27,7 +22,7 @@ public class filemanagement {
 
         try {
 
-            BufferedReader reader = new BufferedReader(new FileReader("C:\\Users\\anobu\\Documents\\cop assignments\\Banaag-COP3330-assignment3\\exercise41_input.txt"));
+            BufferedReader reader = new BufferedReader(new FileReader("C:\\Users\\anobu\\Documents\\exercise41_input.txt"));
 
             String currentLine = reader.readLine();
 
@@ -41,9 +36,9 @@ public class filemanagement {
 
             Collections.sort(names);
 
-            BufferedWriter writer = new BufferedWriter(new FileWriter("C:\\Users\\anobu\\Documents\\cop assignments\\Banaag-COP3330-assignment3\\exercise41_output.txt"));
+            BufferedWriter writer = new BufferedWriter(new FileWriter("C:\\Users\\anobu\\Documents\\cop assignments\\Banaag-COP-3330-assignment3\\exercise41_output.txt"));
 
-            writer.write("There are" + countnames + "number of names.");
+            writer.write("There are " + countnames + " number of names.\n");
 
             for (String line : names)
             {
@@ -64,13 +59,13 @@ public class filemanagement {
 
     public static int countnames(int numofnames) {
 
-        ArrayList<String> names = new ArrayList<String>();
+        ArrayList<String> names = new ArrayList<>();
 
         try {
 
-            BufferedReader reader = null;
+            BufferedReader reader;
 
-            reader = new BufferedReader(new FileReader("C:\\Users\\anobu\\Documents\\cop assignments\\Banaag-COP3330-assignment3\\exercise41_input.txt"));
+            reader = new BufferedReader(new FileReader("C:\\Users\\anobu\\Documents\\exercise41_input.txt"));
 
             String currentLine = reader.readLine();
 

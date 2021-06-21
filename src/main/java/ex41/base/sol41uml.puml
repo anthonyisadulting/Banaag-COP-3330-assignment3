@@ -10,8 +10,8 @@ filemanagement
 }
 
 class filemanagement{
-countnames();
 readandoutputfile();
+countnames();
 
 
 }

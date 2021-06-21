@@ -1,16 +1,13 @@
 @startuml
 'https://plantuml.com/class-diagram
 
+
+
 class solution42{
-
+main();
+tablefilesorter();
 }
 
-class filemanager{
 
-transferinputtotableoutput();
-topspacing();
-
-
-}
 
 @enduml

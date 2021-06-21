@@ -1,0 +1,23 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class solution43{
+
+askforsitename();
+createsitefolder();
+createdsitename(); //for end message
+
+askforauthorname();
+createdauthorname(); //for end message
+
+askforfolderJS();
+createdfolderjs(); //for end message
+
+askforfolderCSS();
+createdfolderCSS();  //for end message
+
+
+
+}
+
+@enduml

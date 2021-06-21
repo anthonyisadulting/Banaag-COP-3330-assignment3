@@ -1,0 +1,14 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+
+class solution44{
+
+askforproductname();
+findproduct ();
+printoutproductdescription();
+
+
+}
+
+@enduml
